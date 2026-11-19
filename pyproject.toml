@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "yasd"
-version = "1.2.0"
-description = "Yet Another Strata Dashboard - real-time terminal UI for Strata"
+name = "yahd"
+version = "2.2.0"
+description = "YAMD - Yet Another Multi Dashboard for Strata and Halogen"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
@@ -15,4 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-yasd = "yasd:main"
+yamd = "yamd:main"
+
+[tool.setuptools]
+py-modules = ["yamd"]
